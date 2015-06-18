@@ -31,23 +31,39 @@
     </style>
     <script type="text/javascript">
     /* jslint settings */
+
     // Module /spa/
     // Provides chat and slider capability
+    //
+    var spa = (function ($) {
       // Module scope variables
+      var
         // set constants
+        configMap = { },
         // Declare all module scope variables
+        $chatSlider,
+        toggleSlider, onClickSlider, initModule;
 
       // DOM method /toggleSlider/
       // alternate slider height
+      //
+      toggleSlider = function () {};
 
       // Event handle /onClickSlider/
       // receives click event and calls toggleSlider
+      //
+      onClickSlider = function (event) {};
 
       // Public method /initModule/
       // sets initial state and provides feature
+      //
+      initModule = function ($container) {
+
         // render HTML
         // initialize slider height and title
         // bind the user click event to the handler
+      };
+    }());
 
     // Start spa once DOM is ready
 
